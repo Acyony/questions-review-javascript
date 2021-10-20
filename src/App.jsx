@@ -37,8 +37,8 @@ function App() {
             </ul>
 
             <Switch>
-                <Route path="/" exact component={Home}/>
-                <Route path="/dom" exact component={Dom}/>
+                <Route path="/"  component={Home}/>
+                <Route path="/dom"  component={Dom}/>
                 <Route path="/dom/introduction" component={DOMIntroduction}/>
                 <Route path="/dom/manipulating" component={DOMManipulating}/>
                 <Route path="/dom/traversing" component={TraversingDOMQuestions}/>

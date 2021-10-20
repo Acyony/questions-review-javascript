@@ -1,7 +1,7 @@
 {
-  "name": "questions-review-js",
+  "name": "questions-review-javascript",
   "version": "0.1.0",
-  "homepage": "http://acyony.github.io/review-exercise",
+  "homepage": "http://acyony.github.io/questions-review-javascript",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.14.1",

@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/questions-review-javascript/static/css/main.5d0bbe39.chunk.css",
+    "main.js": "/questions-review-javascript/static/js/main.ee8af38a.chunk.js",
+    "main.js.map": "/questions-review-javascript/static/js/main.ee8af38a.chunk.js.map",
+    "runtime-main.js": "/questions-review-javascript/static/js/runtime-main.3c46386a.js",
+    "runtime-main.js.map": "/questions-review-javascript/static/js/runtime-main.3c46386a.js.map",
+    "static/js/2.ad6d3ee4.chunk.js": "/questions-review-javascript/static/js/2.ad6d3ee4.chunk.js",
+    "static/js/2.ad6d3ee4.chunk.js.map": "/questions-review-javascript/static/js/2.ad6d3ee4.chunk.js.map",
+    "static/js/3.60f4464c.chunk.js": "/questions-review-javascript/static/js/3.60f4464c.chunk.js",
+    "static/js/3.60f4464c.chunk.js.map": "/questions-review-javascript/static/js/3.60f4464c.chunk.js.map",
+    "index.html": "/questions-review-javascript/index.html",
+    "static/css/main.5d0bbe39.chunk.css.map": "/questions-review-javascript/static/css/main.5d0bbe39.chunk.css.map",
+    "static/js/2.ad6d3ee4.chunk.js.LICENSE.txt": "/questions-review-javascript/static/js/2.ad6d3ee4.chunk.js.LICENSE.txt",
+    "static/media/Saly-10.5b1bc29f.png": "/questions-review-javascript/static/media/Saly-10.5b1bc29f.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3c46386a.js",
+    "static/js/2.ad6d3ee4.chunk.js",
+    "static/css/main.5d0bbe39.chunk.css",
+    "static/js/main.ee8af38a.chunk.js"
+  ]
+}

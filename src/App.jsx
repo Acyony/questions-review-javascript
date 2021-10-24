@@ -8,6 +8,9 @@ import DOMManipulating from "./Components/Content/DOM/ManiputatingDOMQuestions";
 import DOMIntroduction from "./Components/Content/DOM/IntroductionDOMQuestions";
 import TraversingDOMQuestions from "./Components/Content/DOM/TraversingDOMQuestions";
 import BrowserEvents from "./Components/Content/DOM/UserBrowserEvents";
+import ReactQuestions from "./Components/Content/DOM/ReactQuestions";
+// import {useRouteMatch} from "react-router";
+// import {useLocation} from "react-router-dom";
 
 
 function App() {
@@ -17,16 +20,17 @@ function App() {
     };
 
     return (
-        <Router>
+
+        <>
             <ul className="nav  nav-tabs">
                 <li className="nav-item">
-                    <Link exact className="nav-link active" aria-current="page" to="/">Home</Link>
+                    <Link exact className="nav-link active" aria-current="page" to="/home">Home</Link>
                 </li>
                 <li className="nav-item">
                     <Link className="nav-link" to="/dom">DOM</Link>
                 </li>
                 <li className="nav-item">
-                    <Link className="nav-link" to="/modules">Modules</Link>
+                    <Link className="nav-link" to="/react">React</Link>
                 </li>
                 <li className="nav-item">
                     <Link className="nav-link" to="/promise">Promise</Link>
@@ -37,15 +41,18 @@ function App() {
             </ul>
 
             <Switch>
-                <Route path="/" exact component={Home}/>
+                <Route path="/home" exact component={Home}/>
                 <Route path="/dom" exact component={Dom}/>
                 <Route path="/dom/introduction" component={DOMIntroduction}/>
                 <Route path="/dom/manipulating" component={DOMManipulating}/>
                 <Route path="/dom/traversing" component={TraversingDOMQuestions}/>
                 <Route path="/dom/browserEvents" component={BrowserEvents}/>
+                <Route path="/react" component={ReactQuestions}/>
+
+                <Route path="*" component={Home}/>
             </Switch>
 
-        </Router>
+        </>
     );
 }
 

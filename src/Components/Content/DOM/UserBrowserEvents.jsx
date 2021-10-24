@@ -10,22 +10,23 @@ function UserBrowserEvents(props) {
     const {path, url} = useRouteMatch()
     return (
         <>
-            <h1>Browser Events</h1>
-            <ul>
-                <li>
-                    <Link to={`${url}/events`}>Events</Link>
-                </li>
-                <li>
-                    <Link to={`${url}/addEventListener`}>AddEventListener</Link>
-                </li>
-                <li>
-                    <Link to={`${url}/removeEventListener`}>RemoveEventListener</Link>
-                </li>
-                <li>
-                    <Link to={`${url}/propagation`}>Propagation</Link>
-                </li>
-            </ul>
-
+            <div className="container">
+                <h1 className="text-center mt-4 mb-4">Browser Events</h1>
+                <ul>
+                    <li>
+                        <Link to={`${url}/events`}>Events</Link>
+                    </li>
+                    <li>
+                        <Link to={`${url}/addEventListener`}>AddEventListener</Link>
+                    </li>
+                    <li>
+                        <Link to={`${url}/removeEventListener`}>RemoveEventListener</Link>
+                    </li>
+                    <li>
+                        <Link to={`${url}/propagation`}>Propagation</Link>
+                    </li>
+                </ul>
+            </div>
             <Switch>
                 <Route path={`${path}/events`} component={Events}/>
                 <Route path={`${path}/addEventListener`} component={AddEventListener}/>

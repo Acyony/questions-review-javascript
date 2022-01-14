@@ -4,7 +4,14 @@ module.exports = {
         debugScreens: {
             position: ['top', 'left'],
         },
-        extend: {},
+        extend: {
+            fontFamily: {
+                headline: ['Montserrat-Thin']
+            },
+            colors:{
+                mainColor: '#F8AFA6'
+            }
+        },
     },
     plugins: [
         require('tailwindcss-debug-screens'),

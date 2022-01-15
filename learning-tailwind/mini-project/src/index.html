@@ -1,9 +1,10 @@
 <!doctype html>
-<html class="dark" lang="en">
+<html x-data="{dark: false}" x-bind:class="dark ? 'dark' : '' " lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="../dist/css/styles.css" rel="stylesheet">
+    <script defer src="https://unpkg.com/alpinejs@3.8.0/dist/cdn.min.js"></script>
     <title>Crochet Blog</title>
 </head>
 <body class="bg-mainColor debug-screens">
@@ -11,6 +12,7 @@
 <div class="container bg-gray-200/50  mx-auto min-h-screen px-6 py-8 dark:bg-gray-900">
     <! - page header / headings ->
     <section id="header">
+        <button @click="dark = !dark" class="bg-indigo-200 rounded">Toggle Dark Mode</button>
         <div class="text-center mb-8">
             <h1 class="leading-snug">Bonek de Croche <br>
                 <span class="​text-indigo-900 italic text-4xl sm:text-5xl lg:text-7xl opacity-80​"> ​<q>​&nbsp;Learning a new Hobby with me!&nbsp;​</q>

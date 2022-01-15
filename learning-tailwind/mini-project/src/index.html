@@ -17,7 +17,7 @@
         </div>
     </section>
 
-    <section class="mt-8 grid grid-cols-2 gap-10" id="image_services">
+    <section class="mt-8 grid grid-cols-2 gap-5 md:gap-10" id="image_services">
         <! - picture ->
         <div class="ml-auto" id="image">
             <img src="../dist/img/amigurumi-alcione.jpeg" alt="Tom Gonzales Online Training">
@@ -27,23 +27,34 @@
         <div id="services">
             <h3>I offer you:</h3>
             <ul class="list-disc ml-8">
-                <li class="mb-4 text-xl">Lessons via Skype and you can record all sessions and watch them again later.</li>
-                <li class="mb-4 text-xl">Detailed patterns</li>
-                <li class="mb-4 text-xl">Training with me</li>
+                <li>Lessons via Skype and you can record all sessions and watch them again later.
+                </li>
+                <li>Detailed patterns</li>
+                <li>Training with me</li>
             </ul>
-            <h3 class="mt-10">My qualifications:</h3>
-            <ul class="list-disc ml-8">
-                <li class="mb-4 text-xl">Blogger</li>
-                <li class="mb-4 text-xl">Youtuber</li>
-                <li class="mb-4 text-xl">5 years of experience as amigurumi designer</li>
+
+            <!--Only for >=md -->
+            <h3 class="mt-5 md:mt-10 hidden md:block">My qualifications:</h3>
+            <ul class="list-disc ml-8 hidden md:block">
+                <li>Blogger</li>
+                <li>Youtuber</li>
+                <li>5 years of experience as amigurumi designer</li>
             </ul>
         </div>
     </section>
 
+    <!--Only for smaller then sm-->
+    <h3 class="mt-10 md:hidden">My qualifications:</h3>
+    <ul class="list-disc ml-8 md:hidden">
+        <li class="leading-5 md:leading-normal">Blogger</li>
+        <li class="leading-5 md:leading-normal">Youtuber</li>
+        <li class="leading-5 md:leading-normal">5 years of experience as amigurumi designer</li>
+    </ul>
+
 
     <! - Prices and payment ->
     <section class="mt-8" id="price_payment">
-        <div class="w-8/12 mx-auto">
+        <div class="md:w-8/12 mx-auto">
             <h2>Prices and payment</h2>
             <p>My most important goal is that you get ahead with your goals.</p>
             <p>In a free opening session we will discuss what you want to achieve and how much you can or want to spend.
@@ -53,10 +64,19 @@
 
     <! - Contact ->
     <section class="mt-8 mb-10" id="contact">
-        <div class="grid grid-cols-2 gap-4 w-8/12 mx-auto">
+        <div class="grid grid-cols-2 gap-4 md:w-8/12 md:mx-auto">
             <div id="email">
                 <p>Your message:</p>
-                <a class="bg-pink-200 px-4 py-2" href="#">Send an Email</a>
+                <a class="bg-pink-200 flex items-center w-max px-4 py-2 rounded shadow-sm hover:bg-pink-400 hover:shadow-none transition focus:ring-offset-2 focus:ring-2 "
+                   href="#">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"
+                         stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"
+                         class="feather h-4 mr-1 feather-at-sign">
+                        <circle cx="12" cy="12" r="4"/>
+                        <path d="M16 8v5a3 3 0 0 0 6 0v-1a10 10 0 1 0-3.92 7.94"/>
+                    </svg>
+                    <span> Send an Email</span>
+                </a>
             </div>
             <div id="whatsApp_telefon">
                 <p>WhatsApp:</p>

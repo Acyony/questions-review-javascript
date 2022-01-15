@@ -1,5 +1,6 @@
 module.exports = {
     content: ["./src/**/*.{html,js}"],
+    darkMode: 'class',
     theme: {
         debugScreens: {
             position: ['top', 'left'],
@@ -8,7 +9,7 @@ module.exports = {
             fontFamily: {
                 headline: ['Montserrat-Thin']
             },
-            colors:{
+            colors: {
                 mainColor: '#F8AFA6',
                 titleColor: '#E56997'
             }

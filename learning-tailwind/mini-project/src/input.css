@@ -9,11 +9,11 @@
         src: url("./dist/fonts/Montserrat/Montserrat-Thin.ttf") format("truetype");
     }
     h1 {
-        @apply text-5xl mb-6 font-headline text-mainColor;
+        @apply text-4xl sm:text-5xl mb-6 font-headline text-mainColor;
     }
 
     h2 {
-        @apply text-2xl md:text-3xl mb-3 font-headline text-mainColor;
+        @apply text-xl sm:text-2xl md:text-3xl mb-3 font-headline text-mainColor;
     }
 
     h3 {

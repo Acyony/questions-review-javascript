@@ -19,4 +19,8 @@
     h3 {
         @apply text-2xl mb-2 font-headline text-mainColor;
     }
+
+    p{
+        @apply text-lg;
+    }
 }

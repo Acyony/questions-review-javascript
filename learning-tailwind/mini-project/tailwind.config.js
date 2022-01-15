@@ -9,7 +9,8 @@ module.exports = {
                 headline: ['Montserrat-Thin']
             },
             colors:{
-                mainColor: '#F8AFA6'
+                mainColor: '#F8AFA6',
+                titleColor: '#E56997'
             }
         },
     },

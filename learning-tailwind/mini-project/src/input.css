@@ -36,6 +36,18 @@
     }
 
     .btn {
-        @apply text-white bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 hover:from-pink-500 hover:to-yellow-500   w-max px-4 py-2 rounded shadow-sm hover:bg-pink-400 hover:shadow-none transition flex items-center mb-12
+        @apply text-white  w-max px-4 py-2 rounded shadow-sm  mb-12
+    }
+
+    .btn-icon {
+        @apply flex items-center
+    }
+
+    .btn-color {
+        @apply bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500
+    }
+
+    .btn-hover {
+        @apply hover:from-pink-500 hover:to-yellow-500 hover:bg-pink-400 hover:shadow-none transition
     }
 }

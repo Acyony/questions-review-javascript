@@ -24,6 +24,5 @@ Also, important to mention that I learned how to work with outsource classes in 
 <p>
 If you want take a look on the result, there is a link below. :D
 <br>
-<a src="https://tailwindcss-page.netlify.app/">Click here!</a>
 </p>
-
+[Click here!](https://tailwindcss-page.netlify.app/)

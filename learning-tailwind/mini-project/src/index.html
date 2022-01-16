@@ -13,7 +13,7 @@
     <! - page header / headings ->
     <section id="header">
         <button @click="dark = !dark"
-                class=" text-white bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 hover:from-pink-500 hover:to-yellow-500   w-max px-4 py-2 rounded shadow-sm hover:bg-pink-400 hover:shadow-none transition flex items-center">
+                class="btn">
 
             <!-- moon -->
             <svg x-show="!dark" xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 mr-1" fill="none" viewBox="0 0 24 24"
@@ -28,7 +28,7 @@
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                       d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z"/>
             </svg>
-            <span x-text="dark ? 'Switch to Normal Mode' : 'Switch to Dark Mode'"></span></button>
+            <span class="leading-4" x-text="dark ? 'Switch to Normal Mode' : 'Switch to Dark Mode'"></span></button>
         <div class="text-center mb-8">
             <h1 class="leading-snug">Bonek de Croche <br>
                 <span class="​text-indigo-900 italic text-4xl sm:text-5xl lg:text-7xl opacity-80​"> ​<q>​&nbsp;Learning a new Hobby with me!&nbsp;​</q>
@@ -93,7 +93,7 @@
         <div class="flex justify-around   lg:w-8/12   lg:mx-auto">
             <div id="email">
                 <p>Your message:</p>
-                <a class=" text-white bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 hover:from-pink-500 hover:to-yellow-500  flex items-center w-max px-4 py-2 rounded shadow-sm hover:bg-pink-400 hover:shadow-none transition focus:ring-offset-2 focus:ring-2 "
+                <a class="btn"
                    href="alcioneribeiro@gmail.com">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"
                          stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"
